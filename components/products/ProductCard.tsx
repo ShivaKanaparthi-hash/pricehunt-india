@@ -52,7 +52,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         </p>
 
         <Link
-          href={product.url}
+          href={`/products/${product.id}`}
           className="mt-4 block text-center bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg"
         >
           View Deal
